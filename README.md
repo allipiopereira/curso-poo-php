@@ -18,3 +18,16 @@ Eu me sinto inutil em apenas pegar pronto, creio que deve ter minha essencia naq
 ---------------------------------------
 Fico feliz em poder trocar conhecimento
 ---------------------------------------
+
+===========
+O que usei:
+===========
+
+Front-end
+---------
+- Bootstrap 4
+- Propeller
+
+Back-end
+--------
+- Uso o Xampp (rsrsrs)
