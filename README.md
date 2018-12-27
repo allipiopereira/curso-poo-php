@@ -1,4 +1,4 @@
-# curso-poo-php
+# POO-PHP
 
 --------------------------------------
 Imcompleto - Estou na aula 04 do curso
