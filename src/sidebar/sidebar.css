@@ -1,0 +1,126 @@
+a, a:hover, a:focus {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+    width: 205px;
+    position: fixed;
+    top: 0;
+    left: -350px;
+    height: 98vh;
+    margin-top: 1vh;
+    padding-right: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 999;
+    background: rgb(255, 255, 255);
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    border-left: none;
+    border: 3px solid #eee;
+    border-left: none;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    left: 0;
+    padding: 4px;
+    margin: 10px;
+    margin-top: 10px;
+    background: rgb(155, 151, 151);
+    border-radius: 100px;
+}
+
+#dismiss:hover {
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(219, 219, 219, 0.952);
+    z-index: 998;
+    display: none;
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+}
+
+#sidebar ul.components {
+    padding: 10px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: rgb(155, 151, 151);
+    background: #eee;
+    border-radius: 15px;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: rgb(155, 151, 151);
+    background: #eee;
+    border-radius: 15px;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    width: 100%;
+    max-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.content.active {
+    display:block;
+  }
+  .content {
+    display:none;
+  }
+
+  .ama-navbar-custom {
+    position: fixed;
+    left: 0;
+    padding: 4px;
+    margin: 10px;
+    margin-top: 10px;
+    background: rgb(155, 151, 151);
+    border-radius: 100px;
+    z-index: 100;
+}
+
+.ama-dismiss {
+    position: relative;
+    margin: 10px;
+    margin-top: 10px;
+    background-color: rgb(155, 151, 151);
+    border-radius: 100px;
+}

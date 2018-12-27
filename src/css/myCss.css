@@ -1,0 +1,139 @@
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.548); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #49505736;
+    -webkit-box-shadow: inset 0 0 6px rgba(156, 45, 45, 0.5); 
+}
+
+.border-w-3px {
+    border: 3px solid #fff;
+}
+
+.ra-50 {
+    border-radius: 50px;
+}
+
+.ra-15 {
+    border-radius: 15px;
+}
+
+.rb-15 {
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+}
+
+.rt-15 {
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;         
+}
+
+.rs-none {
+    border-radius: auto;
+}
+
+@media(max-width: 768px) {
+    .rs-none {
+        border-top-left-radius: 0px; 
+        border-top-right-radius: 0px;   
+        border-bottom-left-radius: 0px; 
+        border-bottom-right-radius: 0px; 
+    }
+}
+
+.fcs-black:hover {
+    color: rgb(155, 151, 151);
+    background: #eee;
+    border-radius: 15px;
+}
+
+.icon-btn-title {
+    background-color: #ffffffb0;
+    border: 2px solid rgba(231, 228, 228, 0.493);
+}
+
+/*Cor padrão*/
+.color-default {
+    background-color: #01baef;
+}
+
+.color-b-btn {
+    background-color: #2b59c3;
+}
+
+.color-b {
+    background-color: #06bee1;
+}
+
+.color-c-btn {
+    background-color: hsl(63, 89%, 75%);
+}
+
+
+/*rounded-bottom*/
+.jumbotron {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*font-size-25*/
+.font-size-pro {
+    font-size: 35pt;
+}
+
+@media(max-width: 768px) {
+    .font-size-pro {
+        font-size: 18pt;
+    }
+
+    .jumbotron {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .rounded-bottom {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+
+/*hoverAumentativo*/
+.h:hover {
+    transition: ease-out .01s;
+    transform: scale(1.1);
+}
+
+.saiba-mais {
+    opacity: 0;
+}
+
+.info:hover .saiba-mais {
+    opacity: 1;
+    transition: ease-out .5s;
+}
+
+/*Centralizado background-white*/
+.center-bg-white {
+    position: relative;
+    top: 10px;
+}
+
+.my-8 {
+    margin-top: 5rem;
+}
+
+.dock {
+    margin-top: 30px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
