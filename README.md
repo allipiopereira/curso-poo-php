@@ -26,7 +26,7 @@ Front-end
 ---------
 - Bootstrap 4
 - Propeller
--jqueryCustomScrollbar
+- jqueryCustomScrollbar
 
 Back-end
 --------
