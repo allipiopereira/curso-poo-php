@@ -26,27 +26,27 @@
 
                                                 <ul class="list-group">
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-plus"></span>
+                                                        <span class="mdi mdi-plus"></span>
                                                         Modelo
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-plus"></span>
+                                                        <span class="mdi mdi-plus"></span>
                                                         Tipo
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-plus"></span>
+                                                        <span class="mdi mdi-plus"></span>
                                                         Cor
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-hashtag"></span>
+                                                        <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                         Hélice
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-minus"></span>
+                                                        <span class="mdi mdi-minus"></span>
                                                         Tomada
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-minus"></span>
+                                                        <span class="mdi mdi-minus"></span>
                                                         Nível de velocidade
                                                     </li>
                                                 </ul>
@@ -66,15 +66,15 @@
 
                                                 <ul class="list-group">
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-hashtag"></span>
+                                                        <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                         Ligar
                                                     </li>
                                                     <li class="list-group-item">
-                                                    <span class="fa fa-minus"></span>
+                                                        <span class="mdi mdi-minus"></span>
                                                         Desligar
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <span class="fa fa-hashtag"></span>
+                                                        <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                         Manutenção
                                                     </li>
                                                 </ul>
@@ -387,7 +387,7 @@
                                                             </div>
 
                                                             <div class="w-25 mx-auto my-4 ">
-                                                                 <img src="http://alipio/POO-PHP/src/img/015-512-64-64.png" width="75" height="75">
+                                                                 <img src="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/img/015-512-64-64.png" width="75" height="75">
                                                             </div>
 
                                                         </form>

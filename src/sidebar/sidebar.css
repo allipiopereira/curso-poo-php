@@ -2,6 +2,7 @@ a, a:hover, a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -99,14 +100,7 @@ a[data-toggle="collapse"] {
     right: 0;
 }
 
-.content.active {
-    display:block;
-  }
-  .content {
-    display:none;
-  }
-
-  .ama-navbar-custom {
+ .curso-navbar-custom {
     position: fixed;
     left: 0;
     padding: 4px;
@@ -117,7 +111,7 @@ a[data-toggle="collapse"] {
     z-index: 100;
 }
 
-.ama-dismiss {
+.curso-dismiss {
     position: relative;
     margin: 10px;
     margin-top: 10px;

@@ -10,7 +10,7 @@
 
         <meta name="msapplication-tap-highlight" content="no">
 
-        <link rel="shortcut icon" type="image/x-icon" href="http://alipio/POO-PHP/src/img/php-svg.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/img/php-svg.png">
 
         <title>Aula 01</title>
 
@@ -26,34 +26,32 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.0.39/css/materialdesignicons.css" />
         <!-- jquery.mCustomScrollbar.min.css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-        <!-- font-awesome.min.css -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         <!-- myCss.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/css/myCss.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/css/myCss.css" />
         <!-- propeller.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/pmd-1.3.1-dist/css/propeller.css" />
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/pmd-1.3.1-dist/css/pmd-scrollbar.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/pmd-1.3.1-dist/css/propeller.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/pmd-1.3.1-dist/css/pmd-scrollbar.css" />
         <!-- sidebar.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/sidebar/sidebar.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/sidebar/sidebar.css" />
         <!-- loader.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/loader/loader.css"/>
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/loader/loader.css"/>
         <!-- font roboto -->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
         <!-- incluindo -> loader.html  <-> script de loader -->
         <?php
-            require_once ($_SERVER['DOCUMENT_ROOT']."/POO-PHP/src/loader/loader.html");
+            require_once ($_SERVER['DOCUMENT_ROOT']."/curso-poo-php/src/loader/loader.html");
         ?>
     </head>
 
-    <body onload="myFunction()" style="margin:0;">
-        <div id="amaLoader"></div>
+    <body onload="cursoPre()" style="margin:0;">
+        <div id="cursoLoader"></div>
 
-        <div class="wrapper" id="amaWeb" style="display:none;">
+        <div class="wrapper" id="cursoWeb" style="display:none;">
 
             <!-- incluindo -> sidebar.css -->
             <?php 
-            require_once ($_SERVER['DOCUMENT_ROOT'].'/POO-PHP/src/sidebar/sidebar.php');
+            require_once ($_SERVER['DOCUMENT_ROOT'].'/curso-poo-php/src/sidebar/sidebar.php');
             ?>
 
             <div id="content">
@@ -62,7 +60,7 @@
                     <nav class="navbar navbar-default">
                         <div class="container-fluid">
                             <div class="navbar-header">
-                                <button type="button" id="sidebarCollapse" class="ama-navbar-custom my-4 btn nav-item navbar-btn border-w-3px" style="border: 2px solid #fff;">
+                                <button type="button" id="sidebarCollapse" class="curso-navbar-custom my-4 btn nav-item navbar-btn border-w-3px" style="border: 2px solid #fff;">
                                     <span class="mdi mdi-menu mdi-24px text-white"></span>
                                 </button>
                             </div>

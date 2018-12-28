@@ -23,23 +23,23 @@
 
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <span class="fa fa-plus"></span>
+                                                <span class="mdi mdi-plus"></span>
                                                 Livro
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Duração
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Atenção
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-hashtag"></span>
+                                            <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                 Prazo
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-hashtag"></span>
+                                            <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                 Concluído
                                             </li>
                                         </ul>
@@ -59,19 +59,19 @@
 
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <span class="fa fa-plus"></span>
+                                                <span class="mdi mdi-plus></span>
                                                 Iniciar Leitura
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Parar Leitura
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Retomar Leitura
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-hashtag"></span>
+                                                <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                 Terminar Leitura
                                             </li>
                                         </ul>
@@ -201,23 +201,23 @@
 
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Rodas
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Pneu
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Cela
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Quidon
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Catraca
                                             </li>
                                         </ul>
@@ -237,15 +237,15 @@
 
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                                <span class="fa fa-plus"></span>
+                                                <span class="mdi mdi-plus"></span>
                                                 Transportar
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-hashtag"></span>
+                                                <span style="vertical-align:text-bottom;" class="material-icons">#</span>
                                                 Manutenção
                                             </li>
                                             <li class="list-group-item">
-                                                <span class="fa fa-minus"></span>
+                                                <span class="mdi mdi-minus"></span>
                                                 Emprestar
                                             </li>
                                         </ul>

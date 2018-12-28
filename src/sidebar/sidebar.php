@@ -1,12 +1,12 @@
 <nav id="sidebar">
-    <div id="dismiss" class="ama-dismiss btn ama-navbar-custom btn nav-item navbar-btn"  style="border: 2px solid #ccc;">
-        <i class="mdi mdi-arrow-left ama-mdi-close mdi-24px"></i>
+    <div id="dismiss" class="curso-dismiss btn curso-navbar-custom btn nav-item navbar-btn"  style="border: 2px solid #ccc;">
+        <i class="mdi mdi-arrow-left curso-mdi-close mdi-24px"></i>
     </div>
 
     <div class="sidebar-header text-center">
         <!-- User -->
         <strong>
-            <img src="http://alipio/POO-PHP/src/img/alipio-pereira.jpg" alt="" class="rounded-circle  pmd-btn-fab mx-auto border-w-3px shadow-sm" width="90" height="90">
+            <img src="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/img/alipio-pereira.jpg" alt="" class="rounded-circle  pmd-btn-fab mx-auto border-w-3px shadow-sm" width="90" height="90">
         </strong>
         <div class="lead mx-auto text-dark text-center bg-light  p-3 my-4 mb-5 border-bottom ra-50 shadow-sm">
             <h2>Alipio</h2>
@@ -21,7 +21,7 @@
                     if($i > 9){$z="";}
                     echo "
                     <li class='navbar-item'>
-                        <a href='http://alipio/POO-PHP/aulas/Aula$z$i/index.php' class='navbar-link lead mx-auto text-dark text-center p-3 my-2 mb-2 ra-50 shadow-sm'>Aula $z$i</a>
+                        <a href='/curso-poo-php/aulas/Aula$z$i/index.php' class='navbar-link lead mx-auto text-dark text-center p-3 my-2 mb-2 ra-50 shadow-sm'>Aula $z$i</a>
                     </li>
                     ";
                 }

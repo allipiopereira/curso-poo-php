@@ -10,15 +10,13 @@
 
         <meta name="msapplication-tap-highlight" content="no">
 
-        <link rel="shortcut icon" type="image/x-icon" href="http://alipio/POO-PHP/src/img/php-svg.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/img/php-svg.png">
 
         <title>Minhas Aulas - Curso POO PHP | Curso em Video</title>
 
-        <!--
-            ==========
-            Styles Sheets
-            ==========
-        -->
+        <!--========
+        Styles Sheets
+        ========-->
         <!-- bootstrap.min.css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
             crossorigin="anonymous">
@@ -26,34 +24,32 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.0.39/css/materialdesignicons.css" />
         <!-- jquery.mCustomScrollbar.min.css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-        <!-- font-awesome.min.css -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         <!-- myCss.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/css/myCss.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/css/myCss.css" />
         <!-- propeller.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/pmd-1.3.1-dist/css/propeller.css" />
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/pmd-1.3.1-dist/css/pmd-scrollbar.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/pmd-1.3.1-dist/css/propeller.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/pmd-1.3.1-dist/css/pmd-scrollbar.css" />
         <!-- sidebar.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/sidebar/sidebar.css" />
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/sidebar/sidebar.css" />
         <!-- loader.css -->
-        <link rel="stylesheet" href="http://alipio/POO-PHP/src/loader/loader.css"/>
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/src/loader/loader.css"/>
         <!-- font roboto -->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
         <!-- incluindo -> loader.html <-> script de loader -->
         <?php
-        require_once($_SERVER['DOCUMENT_ROOT'] . "/POO-PHP/src/loader/loader.html");
+        require_once($_SERVER['DOCUMENT_ROOT'] . "/curso-poo-php/src/loader/loader.html");
         ?>
     </head>
 
-    <body onload="myFunction()" style="margin:0;">
-        <div id="amaLoader"></div>
+    <body onload="cursoPre()" style="margin:0;">
+        <div id="cursoLoader"></div>
 
-        <div class="wrapper" id="amaWeb" style="display:none;">
+        <div class="wrapper" id="cursoWeb" style="display:none;">
 
             <!-- incluindo -> sidebar.css -->
             <?php 
-            require_once($_SERVER['DOCUMENT_ROOT'] . '/POO-PHP/src/sidebar/sidebar.php');
+            require_once($_SERVER['DOCUMENT_ROOT'] . '/curso-poo-php/src/sidebar/sidebar.php');
             ?>
 
             <div id="content">
@@ -62,7 +58,7 @@
                     <nav class="navbar navbar-default">
                         <div class="container-fluid">
                             <div class="navbar-header">
-                                <button type="button" id="sidebarCollapse" class="ama-navbar-custom my-4 btn nav-item navbar-btn border-w-3px" style="border: 2px solid #fff;">
+                                <button type="button" id="sidebarCollapse" class="curso-navbar-custom my-4 btn nav-item navbar-btn border-w-3px" style="border: 2px solid #fff;">
                                     <span class="mdi mdi-menu mdi-24px text-white"></span>
                                 </button>
                             </div>
@@ -95,10 +91,11 @@
                                         <!--  Gerando Aulas Dinamicamente -->
                                         <?php
                                             $z = 0;
+                                            $docRoot = $_SERVER['DOCUMENT_ROOT'];
                                             for($i=1; $i <= 4; $i++) {
                                                 if($i > 9){$z="";}
                                                 echo "
-                                                    <a href='http://alipio/POO-PHP/aulas/Aula$z$i/index.php' class='pmd-card fcs-black p-2 m-3 mx-auto' style='border-radius: 100px;'>
+                                                    <a href='/curso-poo-php/aulas/Aula$z$i/index.php' class='pmd-card fcs-black p-2 m-3 mx-auto' style='border-radius: 100px;'>
                                                         <div class='pmd-card-body'>
                                                             <div class='mdi mdi-clipboard-check-outline mdi-48px text-center'></div>
                                                         </div>
@@ -132,7 +129,7 @@
                         <div class="btn-group bg-white p-2  w-100 mx-auto dock">
                             <div class="mx-auto text-center">
                                 <!-- aula atual -->
-                                <a href="http://alipio/POO-PHP/index.php"  class="btn-group mb-1 my-3 mr-3 ml-3">
+                                <a href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/index.php"  class="btn-group mb-1 my-3 mr-3 ml-3">
                                     <button type="button" class="btn icon-btn-title mx-auto mr-4 ml-4 shadow-sm" role="button" style="border-bottom-left-radius: 50px; border-top-left-radius: 50px;">
 
                                         <span class="mdi mdi-clipboard-text-outline mdi-36px text-dark" aria-hidden="true"></span>
@@ -180,13 +177,6 @@
                     $('.collapse.in').toggleClass('in');
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
-            });
-        </script>
-
-        <script>
-            $('a').click(function () {
-                $(this).find('i').toggleClass('fa-minus-circle fa-plus-circle');
-                $('.content').toggleClass('active');
             });
         </script>
     <body>  

@@ -24,7 +24,7 @@
                         <div class="btn-group bg-white p-2  w-100 mx-auto dock">
                             <div class="mx-auto text-center">
                                 <!-- aula anterior -->
-                                <a href="http://alipio/POO-PHP/aulas/Aula0_/index.php" class="btn-group mb-1 my-3">
+                                <a href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/aulas/Aula0_/index.php" class="btn-group mb-1 my-3">
                                     <button type="button" class="btn icon-btn-title mx-auto mr-4 ml-4 shadow-sm" role="button" style="border-bottom-left-radius: 50px; border-top-left-radius: 50px;">
 
                                         <span class="mdi mdi-arrow-left-bold-circle-outline mdi-36px text-dark" aria-hidden="true"></span>
@@ -40,7 +40,7 @@
                                 </a>   
 
                                 <!-- aula atual -->
-                                <a href="http://alipio/POO-PHP/aulas/Aula0_/index.php"  class="btn-group mb-1 my-3 mr-3 ml-3">
+                                <a href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/aulas/Aula0_/index.php"  class="btn-group mb-1 my-3 mr-3 ml-3">
                                     <button type="button" class="btn icon-btn-title mx-auto mr-4 ml-4 shadow-sm" role="button" style="border-bottom-left-radius: 50px; border-top-left-radius: 50px;">
 
                                         <span class="mdi mdi-clipboard-check-outline mdi-36px text-dark" aria-hidden="true"></span>
@@ -56,7 +56,7 @@
                                 </a>
                                 
                                 <!-- aula posterior -->
-                                <a href="http://alipio/POO-PHP/aulas/Aula0_/index.php"  class="btn-group mb-1 my-3">
+                                <a href="<?php $_SERVER['DOCUMENT_ROOT'];?>/curso-poo-php/aulas/Aula0_/index.php"  class="btn-group mb-1 my-3">
                                     <button type="button" class="btn icon-btn-title lead mx-auto shadow-sm" role="button" style="border-bottom-left-radius: 50px; border-top-left-radius: 50px;">
                                         <h3 class="p-2 mb-0  color-body">
                                             Aula _
@@ -104,13 +104,6 @@
                     $('.collapse.in').toggleClass('in');
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
-            });
-        </script>
-
-        <script>
-            $('a').click(function () {
-                $(this).find('i').toggleClass('fa-minus-circle fa-plus-circle');
-                $('.content').toggleClass('active');
             });
         </script>
     <body>  
