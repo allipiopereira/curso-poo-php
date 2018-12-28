@@ -1,4 +1,4 @@
-# POO-PHP
+# curso-poo-php
 
 --------------------------------------
 Imcompleto - Estou na aula 04 do curso
@@ -31,3 +31,8 @@ Front-end
 Back-end
 --------
 - Uso o Xampp (rsrsrs)
+
+
+....................................................................
+Obs: Quando baixar remove o "-master" do sufixo de download da pasta
+....................................................................
